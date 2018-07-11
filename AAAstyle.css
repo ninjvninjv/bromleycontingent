@@ -1,0 +1,104 @@
+body{
+    font-family: 'akzidenz', Helvetica, Arial;
+    font-weight: 400;
+    font-size:0.9vw;
+    color:white;
+    background-color:black;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.video{
+    position: relative;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1;
+    background-color: black; 
+    overflow:hidden;
+}
+
+.video video{
+    display:block;
+    width:100%;
+    height:auto;
+    margin-top: 0;
+}
+
+.videotext{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    text-align: left;
+    z-index:3;
+    margin-top: 0;
+}
+
+.songtitel{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    text-align: center;
+    z-index:2;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+#text {
+    margin: 0;
+    margin-top: 1.15vw;
+    margin-left: 0;
+    width: 28vw;
+    float: left;
+    display: inline;
+    font-size: 0.8vw;
+}
+
+.capital {
+    font-size: 1.7vw;
+    /*color: #ba0101;*/
+    font-weight: 200;
+}
+
+.title {
+    font-style: italic;
+}
+
+.active {
+    color: #ba0101;
+}
+
+.active .capital {
+    
+    font-weight: 800;
+}
+
+    .videoaussen{
+        position:relative;
+        width:13vw;
+        height:auto;
+        margin:0;
+        float: left;
+        margin-top: 0.9vw;
+        margin-left: 1.2vw;
+    }
+    
+    body {
+        font-size: 0.7vw;
+    }
+    
+    .capital {
+        font-size: 1.5vw;
+    }
+    
+    #text {
+        font-size: 0.6vw;
+        margin-top: 1.15vw;
+    }
