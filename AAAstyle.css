@@ -103,18 +103,27 @@ body{
         margin-top: 1.15vw;
     }
 
+    #mobile {
+      display: none;
+    }
+
 
 @media only screen and (max-device-width : 736px) {
 
     body{
-        font-size:6vw;
+        font-size:5vw;
+        color: red;
     }
 
     .capital {
         font-size: 8vw;
+        color: white;
     }
 
-    .videoaussen {
+    .picture {
+        position:relative;
+        height:auto;
+        margin-top: 0.9vw;
         width:98vw;
         margin:0;
         float: left;
@@ -132,7 +141,23 @@ body{
         left: 0;
         margin: 2vw;
         z-index: 3;
-        font-size: 5.5vw;
+        font-size: 5vw;
         width: 96vw;
+        color: white;
+    }
+
+    .videoaussen {
+      display: none;
+    }
+
+    .video img {
+        display:block;
+        width:100%;
+        height:auto;
+        margin-top: 0;
+    }
+
+    #mobile {
+      display: block;
     }
 }
