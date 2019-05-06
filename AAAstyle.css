@@ -17,7 +17,7 @@ body{
     top:0px;
     left:0px;
     z-index:1;
-    background-color: black; 
+    background-color: black;
     overflow:hidden;
 }
 
@@ -76,7 +76,7 @@ body{
 }
 
 .active .capital {
-    
+
     font-weight: 800;
 }
 
@@ -89,16 +89,50 @@ body{
         margin-top: 0.9vw;
         margin-left: 1.2vw;
     }
-    
+
     body {
         font-size: 0.7vw;
     }
-    
+
     .capital {
         font-size: 1.5vw;
     }
-    
+
     #text {
         font-size: 0.6vw;
         margin-top: 1.15vw;
     }
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        font-size:6vw;
+    }
+
+    .capital {
+        font-size: 8vw;
+    }
+
+    .videoaussen {
+        width:98vw;
+        margin:0;
+        float: left;
+        margin-top: 0;
+        margin-left: 2vw;
+    }
+
+    #first {
+      margin-top: 100vh;
+    }
+
+    #text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 2vw;
+        z-index: 3;
+        font-size: 5.5vw;
+        width: 96vw;
+    }
+}
